@@ -37,6 +37,7 @@ permalink: /recommend/
 
 ## 讲课与分享
 
+* [C#培训](https://github.com/yifeitao/csharp_train_2015)
 * [Python语言入门](https://yifeitao.com/2016/07/introduction-to-python)
 
 ## 投资理财
@@ -65,6 +66,7 @@ permalink: /recommend/
   * [五步阅读法](https://yifeitao.com/2017/01/five-steps-reading)
   * [互联网获取信息的三种方式：漫游、订阅、检索](https://yifeitao.com/2017/01/3-ways-to-get-information-on-internet)
   * [如何才能学得慢？](https://yifeitao.com/2017/03/how-to-learn-slowly)
+  * [学习问答集2019](https://yifeitao.com/2019/08/learning-faq-2019)
 
 ## 谈教育
 
@@ -72,6 +74,7 @@ permalink: /recommend/
 * [教育的形态](https://yifeitao.com/2017/03/the-form-of-education)
 * [自由主义的亲子关系-读《父母效能手册》](https://yifeitao.com/2017/02/Parent-Effectiveness-Training)
 * [《0~6岁A+育儿法》：育儿中的理念与教条](https://yifeitao.com/2017/05/A-plus-infanticulture)
+* [放弃教养，野蛮生长](https://yifeitao.com/2019/10/The-Gardener-and-the-Carpenter.html)
 
 ## 谈中医
 
