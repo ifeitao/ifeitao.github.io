@@ -1,6 +1,6 @@
 This favicon was generated using the following font:
 
-- Font Title: Liu Jian Mao Cao
-- Font Author: Copyright 2018 The Liu Jian Mao Cao Project Authors (https://www.github.com/googlefonts/liujianmaocao)
-- Font Source: http://fonts.gstatic.com/s/liujianmaocao/v14/~ChIKEExpdSBKaWFuIE1hbyBDYW8gACoECAEYAQ==.ttf
+- Font Title: ZCOOL KuaiLe
+- Font Author: Copyright 2018 The ZCOOL KuaiLe Project Authors (https://www.github.com/googlefonts/zcool-kuaile)
+- Font Source: http://fonts.gstatic.com/s/zcoolkuaile/v15/tssqApdaRQokwFjFJjvM6h2WpozzoXhC2g.ttf
 - Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
