@@ -21,4 +21,4 @@ permalink: /about/
 * [豆瓣](https://www.douban.com/people/yisha7/)
 * [知乎](https://www.zhihu.com/people/yifeitao)
 * [雪球](https://xueqiu.com/u/2551471836)
-* 微信公众号![](/assets/images/weixin.png)
+* 微信公众号<img src="/assets/images/weixin.png" width="200px" />
