@@ -1,6 +1,6 @@
 # Site Info
-title: "次生进化"
-slogan: "关注人工智能、学习科学、价值投资"
+title: "易飞滔Todd ｜ 次生进化"
+slogan: "关注创造、学习与投资"
 baseurl: ''
 weburl: 'https://yifeitao.com'
 author: 'yifeitao'
@@ -58,7 +58,7 @@ google_analytics: UA-98784328-1
 reveal_path: https://cdn.bootcss.com/reveal.js/3.4.1/
 
 # additional message in sidebar
-addition: '</br>念念不忘，必有回响'
+addition: '</br>念念不忘 必有回响'
 
 # Reading Files
 include:
