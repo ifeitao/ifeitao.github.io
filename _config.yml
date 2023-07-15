@@ -23,7 +23,7 @@ permalink: '/:year//:month/:title'
 
 # Navigation (2nd level links supported)
 nav:
-  第二次进化:
+  次生进化:
     - '/'
     - { 归档: '/archive/' }
     - { 分类: '/categories/' }
@@ -45,8 +45,8 @@ category_page: '/categories/'
 
 # Comments provider config
 comments_provider: vssue
-owner: yifeitao
-repo: yifeitao.github.io
+owner: ifeitao
+repo: ifeitao.github.io
 vssue_clientId: 1d4ebc70fd877e40b5fa
 vssue_clientSecret: 209ea95a15aa7c9ae6eae6abcdadc2200f7dedbe
 #livere_uid: MTAyMC8zNDI2NS8xMDgwMg==
