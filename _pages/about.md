@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+## bio
 二娃奶爸。
 
 独立开发者，作品研发中。
@@ -12,8 +13,8 @@ permalink: /about/
 
 中科大计算机硕士，曾任职西安卫星测控中心、筷子科技、创新奇智、网易游戏。
 
-Find me:
-
+## Find me
+* <yifeitao@gmail.com>
 * [GitHub](https://github.com/ifeitao)
 * [Twitter](https://twitter.com/ifeitao)
 * [微博](https://weibo.com/u/1646113497)
