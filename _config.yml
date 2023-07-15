@@ -4,7 +4,7 @@ slogan: "关注人工智能、学习科学、价值投资"
 baseurl: ''
 weburl: 'https://yifeitao.com'
 author: 'yifeitao'
-logo: '/assets/images/logo.jpg'
+logo: '/assets/images/logo.png'
 
 # Site configurations
 plugins:
@@ -44,11 +44,9 @@ tag_page: '/tags/'
 category_page: '/categories/'
 
 # Comments provider config
-comments_provider: vssue
+comments_provider: utterances
 owner: ifeitao
 repo: ifeitao.github.io
-vssue_clientId: 1d4ebc70fd877e40b5fa
-vssue_clientSecret: 209ea95a15aa7c9ae6eae6abcdadc2200f7dedbe
 #livere_uid: MTAyMC8zNDI2NS8xMDgwMg==
 #disqus_shortname: yifeitao
 
