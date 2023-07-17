@@ -52,7 +52,7 @@ repo: ifeitao.github.io
 
 # Analytics provider config
 analytics_provider: google
-google_analytics: UA-98784328-1
+google_analytics: G-NSGZR3ZT9N
 
 # reveal.js slide template
 reveal_path: https://cdn.bootcss.com/reveal.js/3.4.1/

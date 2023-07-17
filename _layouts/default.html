@@ -21,7 +21,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
   </head>
-
+  {% if site.analytics_provider %}
+  {% include analytics-providers/{{site.analytics_provider}}.html %}
+  {% endif %}
   <body>
 
     {% include sidebar.html %}
@@ -69,9 +71,7 @@
     {% include footnote.html %}
 
     <label for="sidebar-checkbox" class="sidebar-toggle" id="sidebar-toggle"><div id="overlay"></div></label>
-    {% if site.analytics_provider %}
-    {% include analytics-providers/{{site.analytics_provider}}.html %}
-    {% endif %}
+
     <script>
     (function(){ // todo list
       lists = document.querySelectorAll('.tdl');
