@@ -55,7 +55,7 @@ analytics_provider: google
 google_analytics: G-NSGZR3ZT9N
 
 # reveal.js slide template
-reveal_path: https://cdn.bootcss.com/reveal.js/3.4.1/
+reveal_path: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/
 
 # additional message in sidebar
 addition: '</br>念念不忘 必有回响'
