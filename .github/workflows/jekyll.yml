@@ -4,15 +4,12 @@
 # documentation.
 
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Jekyll Site CI
+name: Deploy Jekyll site to Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
-  pull_request:
-    branches:
-      - main
+    branches: [$default-branch]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,25 +32,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y git curl autoconf bison build-essential libssl-dev libyaml-dev libreadline-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm-dev
-      - name: Install Ruby using ruby-build
-        run: |
-          git clone https://github.com/rbenv/ruby-build.git
-          PREFIX=/usr/local ./ruby-build/install.sh
-          sudo mkdir -p /opt/hostedtoolcache/Ruby/3.1.4/x64
-          sudo ruby-build 3.1.4 /opt/hostedtoolcache/Ruby/3.1.4/x64
-          sudo touch /opt/hostedtoolcache/Ruby/3.1.4/x64.complete
+        uses: actions/checkout@v4
       - name: Setup Ruby
-        uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
+        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
@@ -73,4 +62,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
