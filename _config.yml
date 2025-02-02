@@ -19,7 +19,7 @@ sass:
   style: compressed
   sass_dir: _scss
 recent_post: 10
-permalink: '/:year//:month/:title'
+permalink: '/:year//:month/:title/'
 
 # Navigation (2nd level links supported)
 nav:
