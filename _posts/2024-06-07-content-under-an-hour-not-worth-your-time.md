@@ -7,6 +7,7 @@ categories:
 
 tag:次生进化
 ---
+![1739787147382](image/2024-06-07-content-under-an-hour-not-worth-your-time/1739787147382.png)
 
 **不超过一个小时的内容，无论是文字，音频还是视频，都不值得在这上面花时间。** 虽是暴论，但矫枉必须过正。
 
