@@ -8,7 +8,15 @@ $theme-color-light: lighten($theme-color, 30%);
 $post-date-color: #9a9a9a;
 
 $reverse-layout: true;
-$font-sans: "PT Sans", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+$font-sans: "CangErJinKai", "PT Sans", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+
+@font-face {
+  font-family: 'CangErJinKai';
+  src: url('../fonts/仓耳今楷02-W03.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 /*
  * Contents
@@ -42,9 +50,9 @@ html, body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+  font-family: "CangErJinKai", "PT Serif", Georgia, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 24px;
   word-wrap: break-word;
   word-break: break-word;
