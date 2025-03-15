@@ -24,4 +24,4 @@ permalink: /about/
 * [知乎](https://www.zhihu.com/people/yifeitao)
 * [雪球](https://xueqiu.com/u/2551471836)
 * 微信公众号
-<img src="https://github.com/ifeitao/ifeitao/blob/main/weixin.png" width="200px" />
+<img src="/assets/images/weixin.png" width="200px" />
