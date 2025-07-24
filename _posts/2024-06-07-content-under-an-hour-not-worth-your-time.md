@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 不超过一个小时的内容不值得花时间
+title: 投资需要学习什么知识？
 categories: 
 tag: 次生进化
 ---
