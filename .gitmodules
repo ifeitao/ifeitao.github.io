@@ -1,0 +1,3 @@
+[submodule "themes/resound"]
+	path = themes/resound
+	url = https://github.com/ifeitao/hugo-theme-resound.git
