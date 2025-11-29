@@ -1,0 +1,18 @@
+# Hugo build outputs
+public/
+resources/_gen/
+.hugo_build.lock
+.hugo_cache/
+
+# OS / Editor junk
+**/.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment files (if any)
+.env
+.env.*

@@ -1,0 +1,120 @@
+# Site configuration
+baseURL = 'https://yifeitao.com'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh-cn'
+title = '易飞滔Todd ｜ 次生进化'
+theme = 'resound'
+
+# Output formats for search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Multi-language configuration
+[languages]
+  [languages.zh-cn]
+    languageName = "中文"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
+# Enable Git info
+enableGitInfo = false
+
+# Site params
+[params]
+  slogan = '关注创造、学习与投资'
+  author = 'yifeitao'
+  logo = '/logo.png'
+  addition = '</br>念念不忘 必有回响'
+  
+  # Article expiration configuration
+  expire_days = 365
+  
+  # Comments
+  comments_provider = 'giscus'
+  [params.giscus]
+    repo = 'ifeitao/ifeitao.github.io'
+    repo_id = 'R_kgDOJ7ttvw'
+    category = 'General'
+    category_id = 'DIC_kwDOJ7ttv84CwgeT'
+    mapping = 'pathname'
+    lang = 'zh-CN'
+  
+  # Analytics
+  analytics_provider = 'google'
+  google_analytics = 'G-NSGZR3ZT9N'
+  
+  # Navigation
+  [params.nav]
+    name = '次生进化'
+    url = '/'
+    [[params.nav.items]]
+      name = '精选'
+      url = '/featured/'
+    [[params.nav.items]]
+      name = '归档'
+      url = '/archive/'
+    [[params.nav.items]]
+      name = '分类'
+      url = '/categories/'
+    [[params.nav.items]]
+      name = '标签'
+      url = '/tags/'
+    [[params.nav.items]]
+      name = '搜索'
+      url = '/search/'
+    [[params.nav.items]]
+      name = '关于'
+      url = '/about/'
+
+[languages.zh-cn.params.nav]
+  name = '次生进化'
+  [[languages.zh-cn.params.nav.items]]
+    name = '精选'
+    url = '/featured/'
+  [[languages.zh-cn.params.nav.items]]
+    name = '归档'
+    url = '/archive/'
+  [[languages.zh-cn.params.nav.items]]
+    name = '分类'
+    url = '/categories/'
+  [[languages.zh-cn.params.nav.items]]
+    name = '标签'
+    url = '/tags/'
+  [[languages.zh-cn.params.nav.items]]
+    name = '搜索'
+    url = '/search/'
+  [[languages.zh-cn.params.nav.items]]
+    name = '关于'
+    url = '/about/'
+
+[languages.en.params.nav]
+  name = 'Secondary Evolution'
+  [[languages.en.params.nav.items]]
+    name = 'Featured'
+    url = '/en/featured/'
+  [[languages.en.params.nav.items]]
+    name = 'Archive'
+    url = '/en/archive/'
+  [[languages.en.params.nav.items]]
+    name = 'Categories'
+    url = '/en/categories/'
+  [[languages.en.params.nav.items]]
+    name = 'Tags'
+    url = '/en/tags/'
+  [[languages.en.params.nav.items]]
+    name = 'Search'
+    url = '/en/search/'
+  [[languages.en.params.nav.items]]
+    name = 'About'
+    url = '/en/about/'
+
+# Privacy configuration
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+
+[permalinks]
+  posts = '/:slug/'
