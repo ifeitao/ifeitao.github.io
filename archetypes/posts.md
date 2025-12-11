@@ -1,31 +1,31 @@
-+++
+---
 # Basic
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
-date = '{{ .Date }}'
-lastmod = '{{ .Date }}'
-draft = true
+title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+date: '{{ .Date }}'
+lastmod: '{{ .Date }}'
+draft: true
 
 # URL
-slug = '{{ .File.ContentBaseName | urlize }}'
+slug: '{{ .File.ContentBaseName | urlize }}'
 # url will follow your permalinks setting: '/:year/:month/:slug/'
 
 # SEO
-description = ''
+description: ''
 # featured image for social cards (optional)
-# featuredImage = ''
-# image = ''
-# noindex = false
+# featuredImage: ''
+# image: ''
+# noindex: false
 
 # Taxonomy
-categories = []
-tags = []
+categories: []
+tags: []
 
 # Featured flag
-featured = false
+featured: false
 
 # Page options
-mermaid = false
-toc = false
-+++
+mermaid: false
+toc: false
+---
 
 在这里撰写正文……
