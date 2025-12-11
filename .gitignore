@@ -9,6 +9,7 @@ resources/_gen/
 Thumbs.db
 .idea/
 .vscode/
+.obsidian/
 
 # Logs
 *.log
@@ -16,3 +17,4 @@ Thumbs.db
 # Environment files (if any)
 .env
 .env.*
+.tinypng-image-cache.json
