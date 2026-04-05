@@ -65,6 +65,9 @@ enableGitInfo = false
       name = '搜索'
       url = '/search/'
     [[params.nav.items]]
+      name = '演示'
+      url = '/slides/'
+    [[params.nav.items]]
       name = '关于'
       url = '/about/'
 
@@ -86,6 +89,9 @@ enableGitInfo = false
     name = '搜索'
     url = '/search/'
   [[languages.zh-cn.params.nav.items]]
+    name = '演示'
+    url = '/slides/'
+  [[languages.zh-cn.params.nav.items]]
     name = '关于'
     url = '/about/'
 
@@ -106,6 +112,9 @@ enableGitInfo = false
   [[languages.en.params.nav.items]]
     name = 'Search'
     url = '/en/search/'
+  [[languages.en.params.nav.items]]
+    name = 'Slides'
+    url = '/en/slides/'
   [[languages.en.params.nav.items]]
     name = 'About'
     url = '/en/about/'
