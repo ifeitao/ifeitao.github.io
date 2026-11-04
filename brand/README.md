@@ -15,7 +15,7 @@
 改完源文件后重新生成 `static/` 下的全部位图：
 
 ```sh
-python3 tools/make-icons.py
+python3 brand/make-icons.py
 ```
 
 需要本机装有 Google Chrome（无头渲染）和 Pillow（拼装 `.ico`）。

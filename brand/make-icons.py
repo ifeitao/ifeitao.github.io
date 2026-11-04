@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Regenerate the site's logo / favicon assets from the SecEvo Labs mark.
 
-  python3 tools/make-icons.py
+  python3 brand/make-icons.py
 
-Sources live in brand/ (the same geometry as secevo.xyz's brand kit:
+Sources sit next to this script (the same geometry as secevo.xyz's brand kit:
 three nested arcs, all openings at 315°, ember red dot — 200-unit canvas).
 Outputs land in static/, which is served as-is by Hugo.
 
@@ -17,7 +17,7 @@ import tempfile
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BRAND = os.path.join(ROOT, "brand")
+BRAND = os.path.dirname(os.path.abspath(__file__))
 STATIC = os.path.join(ROOT, "static")
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
