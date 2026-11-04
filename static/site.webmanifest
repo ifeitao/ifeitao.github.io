@@ -1,6 +1,6 @@
 {
-  "name": "Resound",
-  "short_name": "Resound",
+  "name": "易飞滔Todd ｜ 次生进化",
+  "short_name": "次生进化",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#1F4D3A",
+  "background_color": "#F5F2EA",
   "display": "standalone"
 }
