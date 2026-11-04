@@ -17,6 +17,10 @@ theme = 'resound'
   [languages.en]
     languageName = "English"
     weight = 2
+    title = 'Yifeitao ｜ Secondary Evolution'
+    [languages.en.params]
+      slogan = 'On creation, learning and investing'
+      addition = '</br>Hold it in mind, and an echo will come'
 
 # Enable Git info
 enableGitInfo = false
