@@ -21,6 +21,13 @@ theme = 'resound'
     [languages.en.params]
       slogan = 'On creation, learning and investing'
       addition = '</br>Hold it in mind, and an echo will come'
+  [languages.ja]
+    languageName = "日本語"
+    weight = 3
+    title = 'Yifeitao ｜ 次生進化'
+    [languages.ja.params]
+      slogan = '創造と学習と投資について'
+      addition = '</br>思い続ければ、必ず響いてくる'
 
 # Enable Git info
 enableGitInfo = false
@@ -122,6 +129,30 @@ enableGitInfo = false
   [[languages.en.params.nav.items]]
     name = 'About'
     url = '/en/about/'
+
+[languages.ja.params.nav]
+  name = '次生進化'
+  [[languages.ja.params.nav.items]]
+    name = '特集'
+    url = '/ja/featured/'
+  [[languages.ja.params.nav.items]]
+    name = 'アーカイブ'
+    url = '/ja/archive/'
+  [[languages.ja.params.nav.items]]
+    name = 'カテゴリ'
+    url = '/ja/categories/'
+  [[languages.ja.params.nav.items]]
+    name = 'タグ'
+    url = '/ja/tags/'
+  [[languages.ja.params.nav.items]]
+    name = '検索'
+    url = '/ja/search/'
+  [[languages.ja.params.nav.items]]
+    name = 'スライド'
+    url = '/ja/slides/'
+  [[languages.ja.params.nav.items]]
+    name = 'このサイト'
+    url = '/ja/about/'
 
 # Privacy configuration
 [privacy]
