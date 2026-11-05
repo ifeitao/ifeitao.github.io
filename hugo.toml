@@ -37,6 +37,7 @@ enableGitInfo = false
   slogan = '关注创造、学习与投资'
   author = 'yifeitao'
   logo = '/logo.png'
+  palette = 'secevo'
   addition = '</br>念念不忘 必有回响'
   
   # Article expiration configuration
