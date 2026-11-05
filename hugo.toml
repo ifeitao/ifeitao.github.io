@@ -9,6 +9,14 @@ theme = 'resound'
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+# Syntax highlighting: let the theme's stylesheets paint code (assets/css/_syntax.scss
+# for day, _dark.scss for night) instead of Hugo's inline Monokai. Inline styles win
+# over every stylesheet, so with noClasses = true light palettes were showing dark
+# code blocks, and a monochrome palette had no way to reach them.
+[markup.highlight]
+  noClasses = false
+  style = 'github'
+
 # Multi-language configuration
 [languages]
   [languages.zh-cn]
